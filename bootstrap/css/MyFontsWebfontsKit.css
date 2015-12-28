@@ -1,0 +1,14 @@
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/263441");
+
+  
+@font-face {font-family: 'TradeGothicLT';src: url('webfonts/263441_0_0.eot');src: url('webfonts/263441_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/263441_0_0.woff') format('woff'),url('webfonts/263441_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'TradeGothicLTCom-Bd2';src: url('webfonts/263441_1_0.eot');src: url('webfonts/263441_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/263441_1_0.woff') format('woff'),url('webfonts/263441_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'TradeGothicLTCom-BdCn20';src: url('webfonts/263441_2_0.eot');src: url('webfonts/263441_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/263441_2_0.woff') format('woff'),url('webfonts/263441_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'TradeGothicLTCom-Obl';src: url('webfonts/263441_3_0.eot');src: url('webfonts/263441_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/263441_3_0.woff') format('woff'),url('webfonts/263441_3_0.ttf') format('truetype');}
