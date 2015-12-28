@@ -1,0 +1,21 @@
+body {
+  color: #333; }
+
+.test, #nocheindiv {
+  padding: 20px;
+  background-color: #eee;
+  margin: 30px;
+  font-size: 22px; }
+
+.nase {
+  border: 1px solid #000; }
+
+.text-borderradius, #nocheindiv {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid #000; }
+
+#nocheindiv {
+  color: #ccc; }

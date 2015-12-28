@@ -1,0 +1,40 @@
+$schriftfarbe: #333;
+$auszeichnung: #ccc;
+$hintergrund: #eee;
+$standardborder: 1px solid #000;
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+body {
+	color: $schriftfarbe;
+}
+
+.test {
+	padding: 20px;
+	background-color: $hintergrund;
+	margin: 30px;
+	font-size: 22px;
+}
+
+
+.nase {
+	border: $standardborder;
+	.test {
+	}
+}
+
+.text-borderradius {
+	@include border-radius(10px);
+	border: $standardborder;
+}
+
+#nocheindiv {
+	@extend .test;
+	@extend .text-borderradius;
+	color: $auszeichnung;
+}
